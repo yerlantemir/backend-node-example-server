@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Simple endpoint
+// Simple endpoint qwlekqe
 app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello from Ubuntu server!", SALEM: "ALEM" });
 });

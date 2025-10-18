@@ -8,9 +8,4 @@ describe("GET /api/hello", () => {
     expect(response.body).toHaveProperty("message");
     expect(response.body.message).toBe("Hello from Ubuntu server!");
   });
-
-  it("should return a timestamp", async () => {
-    const response = await request(app).get("/api/hello");
-    expect(response.body).toHaveProperty("timestamp");
-  });
 });

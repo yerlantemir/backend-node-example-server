@@ -7,7 +7,7 @@ app.use(express.json());
 // Simple endpoint qwlekqe
 app.get("/api/hello", (req, res) => {
   // some logic...
-  res.json({ message: "Hello from Ubuntu server!", some: "sdsdada" });
+  res.json({ message: "Hello from sdsqd server!", some: "sdsdada" });
 });
 
 // For testing purposes
